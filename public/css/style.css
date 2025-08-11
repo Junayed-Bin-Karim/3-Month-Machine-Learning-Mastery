@@ -157,11 +157,18 @@ section {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    background: 
+        url('/public/Machine\ Learning\ services\ in\ india.jpg') no-repeat center center / cover;
     color: white;
     padding: 10rem 0 8rem;
     margin-top: 76px;
+
+    height: 100vh;  /* পরিবর্তন */
+
+
+
 }
+
 
 .hero-content {
     max-width: 600px;
